@@ -1,0 +1,83 @@
+.title_rows {
+    text-align: center;
+}
+
+.fullWidth {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: initial;
+}
+
+/* Navigation bar. */
+#nav_bar_row { 
+    background-color: #595959;
+    color: white;
+}
+
+.nav_bar_texts {
+    margin-top: 18px;
+    text-align: right
+}
+
+img#nav_bar_logo {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    max-height: 40px;
+    max-width: 100%;
+}
+
+/* Logo and tagline. */
+#logo_row { 
+    text-align: center;
+    margin-top: 50px;
+}
+
+#logo_row img { 
+    max-height:120px; 
+    max-width:100%;
+}
+
+#tag_line_row { 
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#tag_line_style { 
+    color: #a0a0a0;
+    font-family: "Lucida Console", Monaco, monospace;
+    /* font-family: "Courier New", Courier, monospace; */
+    font-size: 1.1em;
+}
+
+/* Products. */
+.product_rows {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+img#lamophone_logo {
+    max-height: 120px;
+    max-width: 100%;
+}
+
+img#nature_logo {
+    max-height: 120px;
+    max-width: 100%;
+}
+
+.product_logos {
+    text-align: center;
+}
+
+/* Footer. */
+.footer_row {
+    color: darkgray;
+    margin-top: 50px;
+}
+
+.footer_text {
+    font-size: 0.7em;
+}
