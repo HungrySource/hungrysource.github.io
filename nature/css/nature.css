@@ -1,0 +1,82 @@
+/* Hero image - template code from Foundation site. */
+.hero {
+    background: url("../img/nature_background_beach_1920x1080.png") no-repeat center center;
+    background-size: cover;
+    height: 100vh; 
+}
+
+.hero:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #a0a0a0, #000000);
+    opacity: .3; 
+}
+
+.hero .intro {
+    padding: 3rem;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+.hero h1 {
+    color: #fff;
+    font-size: 2.0rem;
+    line-height: 1.5em;
+    letter-spacing: -0.025em;
+    font-weight: 300;
+    text-align: center;
+}
+
+.hero p {
+    color: #fff;
+    line-height: 1.75em;
+    font-size: 1.2rem; 
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.hero img {
+    max-height: 140px;
+    max-width: 100%;
+    margin-top: 6rem;
+}
+
+@media only screen and (min-width: 40.063em) {
+    .hero .tech-img {
+        height: 18rem;
+        width: 18rem; 
+    }
+    .hero h1 {
+        padding-top: 4.5rem;
+        text-align: center;
+        font-size: 2.8rem; 
+    }
+    .hero p {
+        font-size: 1.4rem; 
+        text-align: center; 
+    }
+}
+
+/* Description. */
+#description_row {
+    margin-top: 40px;
+}
+
+/* Footer. */
+#nature_app_icon_footer {
+    max-height: 100px;
+    max-width: 100%;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+#footer_row {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
