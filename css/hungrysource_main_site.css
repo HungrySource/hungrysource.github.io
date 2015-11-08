@@ -73,11 +73,12 @@ img#nature_logo {
 
 .profile_title_text {
     font-size: 0.9em;
+    font-style: italic;
 }
 
 img#profile_image {
     max-height: 120px;
-    max-width: 100%;
+    max-width: 80%;
     border-radius: 50%;
 }
 
