@@ -17,6 +17,11 @@ img#nav_bar_logo {
     max-width: 100%;
 }
 
+.detail_text {
+    color: #606060;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
 /* Logo and tagline. */
 #logo_row { 
     text-align: center;
@@ -35,33 +40,50 @@ img#nav_bar_logo {
 }
 
 #tag_line_style { 
-    color: #a0a0a0;
-    font-family: "Lucida Console", Monaco, monospace;
-    /* font-family: "Courier New", Courier, monospace; */
+    color: #808080;
+    font-family: "Courier New", Courier, monospace;
     font-size: 1.1em;
 }
 
 /* Products. */
 .product_rows {
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 img#lamophone_logo {
     max-height: 120px;
-    max-width: 100%;
+    max-width: 60%;
 }
 
 img#nature_logo {
     max-height: 120px;
-    max-width: 100%;
+    max-width: 80%;
 }
 
 .product_logos {
     text-align: center;
 }
 
+/* Team. */
+.team_rows {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.profile_title_text {
+    font-size: 0.9em;
+}
+
+img#profile_image {
+    max-height: 120px;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+
 /* Footer. */
 .footer_row {
     margin-top: 50px;
 }
+
