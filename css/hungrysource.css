@@ -1,11 +1,16 @@
 * {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: lighter;
     color: #606060;
     -webkit-font-smoothing: antialiased;
 }
 
 h1,h2,h3,h4,h5 {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+p.italic {
+    font-style: italic;
 }
 
 .fullWidth {
