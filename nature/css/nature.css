@@ -68,6 +68,13 @@
     margin-top: 40px;
 }
 
+/* Screenshots. */
+ul.clearing-thumbs li {
+    display: inline-block;
+    float: none;
+    padding: 10px;
+}
+
 /* Footer. */
 #nature_app_icon_footer {
     max-height: 100px;
