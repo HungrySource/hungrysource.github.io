@@ -1,7 +1,8 @@
-/* Navigation bar. */
-#nav_bar_row { 
-    background-color: #595959;
+/* Navigation bar - the top container with company logo. */
+#nav_bar_row {
+    background-color: #ffffff;
     color: white;
+    text-align: right;
 }
 
 .nav_bar_texts {
@@ -10,42 +11,48 @@
 }
 
 img#nav_bar_logo {
-    margin-top: 5px;
+    margin-top: 25px;
     margin-bottom: 5px;
-    margin-left: 10px;
-    max-height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-height: 70px;
     max-width: 100%;
 }
 
 .detail_text {
-    color: #606060;
+    color: #303030;
     font-family: Tahoma, Geneva, sans-serif;
 }
 
-/* Logo and tagline. */
-#logo_row { 
+.product_category {
+  padding-top: 10px;
+  color: #808080;
+}
+
+/* Logo row - This is currently not used. */
+#logo_row {
     text-align: center;
     margin-top: 50px;
 }
 
-#logo_row img { 
-    max-height:120px; 
+#logo_row img {
+    max-height:120px;
     max-width:100%;
 }
 
-#tag_line_row { 
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-
-#tag_line_style { 
-    color: #808080;
+/* Tagline row. Show 2 lines of text. */
+#tag_line_row {
+    color: #606060;
     font-family: "Courier New", Courier, monospace;
     font-size: 1.1em;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    text-align: left;
 }
 
-/* Products. */
+/* Products. Multiple rows of apps or services. */
 .product_rows {
     margin-top: 30px;
     margin-bottom: 60px;
@@ -82,9 +89,7 @@ img#profile_image {
     border-radius: 50%;
 }
 
-
 /* Footer. */
 .footer_row {
     margin-top: 50px;
 }
-
