@@ -19,11 +19,6 @@ img#nav_bar_logo {
     max-width: 100%;
 }
 
-.detail_text {
-    color: #303030;
-    font-family: Tahoma, Geneva, sans-serif;
-}
-
 .product_category {
   padding-top: 10px;
   color: #808080;
@@ -56,6 +51,12 @@ img#nav_bar_logo {
 .product_rows {
     margin-top: 30px;
     margin-bottom: 60px;
+}
+
+.product_rows .detail_text {
+    color: #303030;
+    font-family: Tahoma, Geneva, sans-serif;
+    padding-right: 20px;
 }
 
 img#lamophone_logo {
