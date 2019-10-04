@@ -1,0 +1,14 @@
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: lighter;
+    color: #606060;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+  padding: 20px;
+}
+
+p .questions {
+    font-style: italic;
+}
